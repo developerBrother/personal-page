@@ -1,0 +1,42 @@
+
+.container{
+    color:white;
+    padding:5px;
+    display:flex;
+    justify-content:flex-start;
+    flex-direction:column;
+    margin-top:2%;
+    background:linear-gradient(to bottom, #aee7ee,#d5e040);
+    width:40rem;
+    height:80vh;
+    margin:auto;
+    margin-top:2%;
+    border-radius:2%;
+    border-color:skyblue;
+    border-style:solid;
+    border-width:50%;
+    text-shadow: 5px 5px 15px black;
+    animation:myslide;
+    animation-duration:.3s;
+    animation-play-state: running;
+    text-align:center;
+    
+}
+
+.container p{
+    font-size:2rem;
+}
+
+.container p a{
+    text-decoration:none;
+    font-style:normal;
+}
+
+.container p a:visited{
+    color:white;
+}
+
+@keyframes myslide{
+    from{margin-top:10%}
+    to{margin-top:0%}
+  }

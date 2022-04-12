@@ -1,0 +1,40 @@
+@keyframes myslide{
+  from{margin-top:10%}
+  to{margin-top:0%}
+}
+
+html {background:  linear-gradient(to right, rgba(174,231,238,1), rgba(0,141,255,1));}
+
+.homeimg {
+  
+  vertical-align: middle;
+}
+
+.text {
+  font-family: "Roboto";
+  font-size: 200%;
+  margin-left: 70px;
+  background-color:rgb(244, 244, 244);
+  border-radius:10px;
+  padding:1rem;
+  text-align:center;
+}
+
+.content {
+  display:flex;
+  width: 80%;
+  margin: 50px;
+  justify-content:center;
+  
+}
+
+
+
+.displayText {
+  font-family: "Roboto";
+  font-size: 300%;
+  text-decoration: underline;
+  text-align:center;
+}
+
+ 

@@ -1,0 +1,23 @@
+.displayText {
+  font-family: "Roboto";
+  font-size: 300%;
+  
+  text-align: center;
+  
+}
+
+.projectsAlign {
+  width: 100%;
+ display:flex;
+ justify-content:center;
+ margin: 0 10px;
+  
+}
+
+.projectsAlign a {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

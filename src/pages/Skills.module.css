@@ -1,0 +1,37 @@
+@keyframes myslide{
+    from{margin-top:10%}
+    to{margin-top:0%}
+  }
+  
+div img {
+    height: 200px;
+    width:200px;
+    margin:10px;
+    background-color:white;
+    animation:myslide;
+    animation-duration:.3s;
+    animation-play-state:running;
+    border-radius:10px;
+    border-style:solid;
+}
+
+
+.skillsDivLeft {
+    width:40%;
+      float: left;
+    margin: 0 auto;
+    text-align:center;
+    background-color:rgba(239, 239, 239, 0.768);
+    border-radius:10px;
+    margin:1rem;
+    
+  }
+  
+  .skillsDivRight {
+      width:40%;
+      float: right;
+      text-align:center;
+      background-color:rgba(239, 239, 239, 0.768);
+      border-radius:10px;
+      margin:1rem;
+  }
