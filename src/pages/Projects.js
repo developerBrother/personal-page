@@ -1,5 +1,7 @@
 import soccerImg from '../images/soccerFoot.jpg';
 import crossImg from '../images/sunsetCross.jpg';
+import githubImg from '../images/GitHub_Logo.png';
+import gitlabImg from '../images/gitlabLogo.png';
 
 import styles from "./Projects.module.css";
 const Projects = () => {
@@ -16,6 +18,16 @@ const Projects = () => {
         <a href="https://github.com/developerBrother/Christian_wallpapers">
         <h3>Christian Wallpapers</h3>
           <img src={crossImg} alt="Link to Christian Wallpaper Site"/>
+        </a>
+        
+        <a href="https://github.com/developerBrother">
+        <h3>Github</h3>
+          <img src={githubImg} alt="Link to Github"/>
+        </a>
+        
+        <a href="https://gitlab.com/BCarmel">
+        <h3>Gitlab</h3>
+          <img src={gitlabImg} alt="Link to Gitlab"/>
         </a>
       </div>
     </div>
