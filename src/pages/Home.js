@@ -1,10 +1,11 @@
 import styles from "./Pages.module.css";
+import placeHolderImg from '../images/team-placeholder.png';
 
 const Home = () => {
   return (
     <div className={styles.content}>
       <span>
-        <img className={styles.homeimg}src="/images/team-placeholder.png"></img>
+        <img className={styles.homeimg} src={placeHolderImg}></img>
       </span>
       <span className={styles.text}>
         <h1>Welcome to my page!</h1>
