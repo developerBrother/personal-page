@@ -25,9 +25,8 @@ html {background:  linear-gradient(to right, rgba(174,231,238,1), rgba(0,141,255
   width: 80%;
   margin: 50px;
   justify-content:center;
-  
+ 
 }
-
 
 
 .displayText {
@@ -35,6 +34,31 @@ html {background:  linear-gradient(to right, rgba(174,231,238,1), rgba(0,141,255
   font-size: 300%;
   text-decoration: underline;
   text-align:center;
+  
 }
+
+@media only screen and (max-width:768px){
+  
+  .homeimg{
+    align-self: auto;
+    width:2rem;
+    height:2rem;
+  }
+
+  .content{
+    display:grid;
+  }
+  
+  .text{
+     font-size:1rem;
+     padding:0.4rem;
+     margin-left:0;
+  }
+}
+
+
+
+
+
 
  

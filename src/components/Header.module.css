@@ -47,6 +47,18 @@
     cursor:pointer;
 } 
 
+@media only screen and (max-width:936px){
+    .container a{
+       font-size:1.5rem;
+       padding:0.4rem;
+    }
+}
 
+@media only screen and (max-width:768px){
+    .container a{
+       font-size:1.5rem;
+       padding:0.4rem;
+    }
+}
 
 

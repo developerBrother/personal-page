@@ -40,3 +40,16 @@
     from{margin-top:10%}
     to{margin-top:0%}
   }
+
+  @media only screen and (max-width:768px){
+    .container{
+        width:80%;
+        font-size:2rem;
+    }
+    .container p{
+        font-size:1.9rem;
+    }
+    .container a{
+        font-size:1.9rem;
+    }
+  }
